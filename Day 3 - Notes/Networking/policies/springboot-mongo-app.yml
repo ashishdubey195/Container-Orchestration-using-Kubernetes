@@ -13,6 +13,7 @@ spec:
   template:
     metadata:
       creationTimestamp: null
+      name: mongodb-pod
       labels:
         app: mongodb
     spec:
@@ -45,6 +46,7 @@ spec:
       app: myapp
   template:
     metadata:
+      name: springboot-pod
       labels:
         app: myapp
     spec:
